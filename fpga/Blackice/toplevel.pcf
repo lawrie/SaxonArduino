@@ -1,0 +1,126 @@
+# Clock and global reset
+set_io CLK    129
+set_io GRESET 128
+
+# Uart
+set_io UART_RX 88
+set_io UART_TX 85
+
+# GPIO A pins
+set_io GPIOA[0]   70  # LED1
+set_io GPIOA[1]   68  # LED2
+set_io GPIOA[2]   67  # LED3
+set_io GPIOA[3]   71  # LED4
+set_io GPIOA[4]   33  # Trigger
+set_io GPIOA[5]   21  # Shift in Clk
+set_io GPIOA[6]   31  # Shift Out Clk
+set_io GPIOA[7]   32  # Shift Out Data
+set_io GPIOA[8]   63  # Button 1
+set_io GPIOA[9]   64  # Button 2
+set_io GPIOA[10]  37
+set_io GPIOA[11]  38
+set_io GPIOA[12]  39
+set_io GPIOA[13]  41
+set_io GPIOA[14]  87
+set_io GPIOA[15]  90
+set_io GPIOA[16]  143
+set_io GPIOA[17]  114
+set_io GPIOA[18]  112
+set_io GPIOA[19]  107
+set_io GPIOA[20]  144
+set_io GPIOA[21]  113
+set_io GPIOA[22]  110
+set_io GPIOA[23]  106
+set_io GPIOA[24]  105
+set_io GPIOA[25]  102
+set_io GPIOA[26]  99
+set_io GPIOA[27]  97
+set_io GPIOA[28]  104
+set_io GPIOA[29]  101
+set_io GPIOA[30]  98
+set_io GPIOA[31]  96
+
+# GPIO B pins
+set_io GPIOB[0]   10
+set_io GPIOB[1]   9
+set_io GPIOB[2]   2
+set_io GPIOB[3]   1
+set_io GPIOB[4]   20
+set_io GPIOB[5]   19
+set_io GPIOB[6]   16
+set_io GPIOB[7]   15
+set_io GPIOB[8]   18  # SCK
+set_io GPIOB[9]   17  # MOSI
+set_io GPIOB[10]  12  # MISO
+set_io GPIOB[11]  11  # SS
+set_io GPIOB[12]  34  # PulseIn
+set_io GPIOB[13]  22  # ShiftIn data
+set_io GPIOB[14]  94  # PWM
+set_io GPIOB[15]  26  # Tone
+set_io GPIOB[16]  25  # Servo
+
+# Debug
+set_io DONE  52 
+set_io DEBUG 49
+
+# i2c
+set_io SDA 95
+set_io SCL 93
+
+# Jtag
+set_io JTAG_TCK 8
+set_io JTAG_TDI 7
+set_io JTAG_TDO 4
+set_io JTAG_TMS 3
+
+# QSPI
+set_io QSS      81
+set_io QCK      82
+set_io QD[0]    83
+set_io QD[1]    84
+set_io QD[2]    79
+set_io QD[3]    80
+
+# SRAM
+set_io ADR[0]  137
+set_io ADR[1]  138
+set_io ADR[2]  139
+set_io ADR[3]  141
+set_io ADR[4]  142
+set_io ADR[5]  42
+set_io ADR[6]  43
+set_io ADR[7]  44
+set_io ADR[8]  73
+set_io ADR[9]  74
+set_io ADR[10] 75
+set_io ADR[11] 76
+set_io ADR[12] 115
+set_io ADR[13] 116
+set_io ADR[14] 117
+set_io ADR[15] 118
+set_io ADR[16] 119
+set_io ADR[17] 78
+
+set_io DAT[0]  136
+set_io DAT[1]  135
+set_io DAT[2]  134
+set_io DAT[3]  130
+set_io DAT[4]  125
+set_io DAT[5]  124
+set_io DAT[6]  122
+set_io DAT[7]  121
+set_io DAT[8]  62
+set_io DAT[9]  61
+set_io DAT[10] 60
+set_io DAT[11] 56
+set_io DAT[12] 55
+set_io DAT[13] 48
+set_io DAT[14] 47
+set_io DAT[15] 45
+
+set_io RAMOE 29
+set_io RAMWE 120
+set_io RAMCS 23
+set_io RAMUB 28
+set_io RAMLB 24
+
