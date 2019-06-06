@@ -11,13 +11,13 @@ menu.jtag=OpenOCD JTAG
 menu.model=Model
 
 #
-# MuraxArduino Generic f32c SoC
+# SaxonArduino Generic FPGA SoC
 #
-fpga_generic.name=Generic Murax FPGA board
+fpga_generic.name=Generic SaxonSoc FPGA board
 fpga_generic.build.mcu=f32c
 fpga_generic.build.core=f32c
 fpga_generic.build.init=0
-fpga_generic.build.board=F32C_FPGA_GENERIC
+fpga_generic.build.board=SAXONSOC_FPGA_GENERIC
 fpga_generic.build.soc_video_bpp=8
 fpga_generic.upload.tool=ujprog
 fpga_generic.upload.wait_for_upload_port=false
@@ -105,13 +105,13 @@ fpga_generic.menu.pinmap.generic=Generic
 fpga_generic.menu.pinmap.generic.build.variant=generic
 
 #
-# MuraxArduino Blackice
+# SaxonArduino Blackice
 #
-fpga_blackice.name=Blackice Murax FPGA board
+fpga_blackice.name=Blackice SaxonSoc FPGA board
 fpga_blackice.build.mcu=f32c
 fpga_blackice.build.core=f32c
 fpga_blackice.build.init=0
-fpga_blackice.build.board=F32C_FPGA_BLACKICE
+fpga_blackice.build.board=SAXONSOC_FPGA_BLACKICE
 fpga_blackice.build.soc_video_bpp=8
 fpga_blackice.upload.tool=ujprog
 fpga_blackice.upload.wait_for_upload_port=false

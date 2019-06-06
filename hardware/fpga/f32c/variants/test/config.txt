@@ -1,4 +1,4 @@
-# Blackice MuraxArduino configuration
+# Blackice SaxonArduino configuration
 cpu
   coreFrequency=50 MHz
   input mainClk=CLK # Not currently used

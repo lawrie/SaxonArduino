@@ -1,9 +1,9 @@
 
 #
-#  MuraxArduino (risc-v) Core and platform.
+#  SaxonArduino (risc-v) Core and platform.
 #
 
-name=Murax FPGA Boards (Murax SoC)
+name=SaxonSoc FPGA Boards
 version=0.0.1
 
 # Compile variables

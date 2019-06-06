@@ -1,6 +1,6 @@
 #!/bin/sh -e
-ARCHIVE=/tmp/MuraxArduino.zip
-ARDUINODIR=~/MuraxArduino
+ARCHIVE=/tmp/SaxonArduino.zip
+ARDUINODIR=~/SaxonArduino
 TOOLDIR=$(pwd)
 
 cd /tmp
